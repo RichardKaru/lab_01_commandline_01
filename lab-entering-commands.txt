@@ -113,7 +113,7 @@ $ ls /Vol<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-
+Pressing TAB autofills the argument.
 
 
 ==========
@@ -123,37 +123,40 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
+v314-ent-015:~ student$ ls doesnotexist
+ls: doesnotexist: No such file or directory
+v314-ent-015:~ student$ 
 
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
+<UP>
 
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
-
+-a and -l
+"all outputs(hidden)" and "detailed outputs"
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+<TAB>
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-
+ls
+"List"
 
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
-
+Desktop
 
 
 ==========
@@ -163,7 +166,9 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
-
+v314-ent-015:~ student$ foo
+-bash: foo: command not found
+v314-ent-015:~ student$ 
 
 
 ==========
@@ -173,7 +178,9 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
-
+v314-ent-015:~ student$ foo
+-bash: foo: command not found
+v314-ent-015:~ student$ 
 
 
 ==========
@@ -183,3 +190,7 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+ls is the command
+Desktop is the argument
+-a is the flag
+$ is the prompt
