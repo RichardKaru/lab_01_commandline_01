@@ -234,7 +234,7 @@ lemon
 
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
-mkdir -p pineapple orange strawberry lemon
+mkdir -p lemon/strawberry/orange/pineapple
 
 
 ==========
@@ -262,7 +262,7 @@ drwxr-xr-x  2 student  staff   68 Sep 13 16:20 aardvark
 
 What command did you use?
 ----------
-mkdir -p foo bar baz
+mkdir -p /foo/bar/baz
 
 
 ==========
@@ -270,7 +270,7 @@ mkdir -p foo bar baz
 
 What command did you use?
 ----------
-cd baz
+cd /foo/bar/baz
 
 
 ==========
@@ -278,7 +278,7 @@ cd baz
 
 What command did you use?
 ----------
-
+cd ../..
 
 ==========
 24. What command is used to delete empty directories?
@@ -307,13 +307,13 @@ pwd
 ==========
 28. What's a pathname?
 ----------
-The route to a specific directory.
+The general route to a file or directory.
 
 
 ==========
 29. What's a directory?
 ----------
-A folder or Volume
+A catalogue file structure that references other files and directories.
 
 
 ==========
